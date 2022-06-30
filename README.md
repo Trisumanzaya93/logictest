@@ -1,0 +1,1 @@
+<img src="result.png" alt="drawing" style="width:200px;"/>

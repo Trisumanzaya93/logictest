@@ -1,4 +1,5 @@
-function Fazztrack(num){
+function fullstack(num){
+  const arr=[]
     for(let i = 1; i <= num; i++){
       let hasil="";
       
@@ -9,10 +10,11 @@ function Fazztrack(num){
           hasil += "BackEnd";
           }
         if (hasil !== ''){
-          console.log(hasil);
+          arr.push(hasil);
           }
         else{    
-        console.log(i);}
+        arr.push(i);}
       }
+      return arr;
     }
-    Fazztrack(50);
+    console.log(fullstack(50));
